@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+         FDF       0.00      0.00      0.00         0
+         FDC       0.00      0.00      0.00         0
+          FP       0.00      0.00      0.00         0
+         FTE       0.67      0.38      0.48        37
+          FA       0.00      0.00      0.00         0
+
+   micro avg       0.67      0.38      0.48        37
+   macro avg       0.13      0.08      0.10        37
+weighted avg       0.67      0.38      0.48        37
+ samples avg       0.00      0.00      0.00        37

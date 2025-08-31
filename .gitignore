@@ -1,0 +1,9 @@
+@"
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+results/*.joblib
+results/*.pkl
+results/api_metrics_*.json
+"@ | Out-File -Encoding UTF8 .gitignore
