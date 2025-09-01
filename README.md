@@ -89,7 +89,7 @@ Antes de começar, garanta que você tem o **Python 3.10+** e o **Git** instalad
 1.  **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/SEU-USUARIO/projeto_manutencao_preditiva.git
+    git clone https://github.com/RodrigoTDonde/projeto_manutencao_preditiva.git
     cd projeto_manutencao_preditiva
     ```
 
