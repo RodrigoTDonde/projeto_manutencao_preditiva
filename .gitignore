@@ -1,19 +1,45 @@
-@"
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes/venvs e instalações locais
+venv/
 .venv/
-**/__pycache__/
-**/.ipynb_checkpoints/
+ENV/
+env/
+Lib/
+Scripts/
+share/
+Include/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
 
-# Dados locais (não versionar)
-data/
+# IDEs
+.vscode/
+.idea/
 
-# Artefatos pesados/bits binários
+# Dados grandes 
+# data/
+# !data/README.md
+
+# Artefatos temporários
+.ipynb_checkpoints/
+*.log
+
+# Modelos/artefatos binários
+models/
+*.pkl
+*.joblib
+
+# Resultados 
+results/*.json
+results/*.txt
 results/*.joblib
-results/*.pkl
-
-# Dumps da API: ignore todos, exceto 'api_metrics_last.json' (que o app usa)
-results/api_metrics_*.json
-!results/api_metrics_last.json
-"@ | Out-File -Encoding UTF8 .gitignore
-
-notebooks/data/
-notebooks/results/
+results/bootcamp_submission_long.csv
+results/plots/_teste.png
+!results/bootcamp_submission.csv
+!results/plots/
