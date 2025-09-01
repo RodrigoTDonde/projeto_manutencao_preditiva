@@ -52,13 +52,13 @@ data/
 # ============================
 # Resultados
 # ============================
-# Results
+# manter somente o essencial
 results/*.json
 results/*.txt
 results/*.joblib
-results/*.csv          # ignora todos os .csv em results
-!results/bootcamp_submission.csv   # EXCEÇÃO: manter o oficial
-!results/plots/                    # manter os gráficos
+results/bootcamp_submission_long.csv
+results/submission.csv           # gerado pelo script (não versionar)
+results/plots/_teste.png
 
 # permitir estes:
 !results/bootcamp_submission.csv
