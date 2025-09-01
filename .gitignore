@@ -1,4 +1,8 @@
-# Python cache
+# ============================
+# Python / Projeto CDIA - SENAI
+# ============================
+
+# Cache e bytecode
 __pycache__/
 *.pyc
 *.pyo
@@ -10,36 +14,59 @@ venv/
 ENV/
 env/
 Lib/
-Scripts/
-share/
 Include/
+share/
 *.egg-info/
 dist/
 build/
 pip-wheel-metadata/
+.python-version
 
-# IDEs
+# IDEs / Editores
 .vscode/
 .idea/
+*.code-workspace
 
-# Dados grandes 
-# data/
-# !data/README.md
-
-# Artefatos temporários
+# Notebooks
 .ipynb_checkpoints/
+
+# Logs
 *.log
 
-# Modelos/artefatos binários
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Modelos / artefatos binários
 models/
 *.pkl
 *.joblib
 
-# Resultados 
+# ============================
+# Dados (não versionados)
+# ============================
+data/
+!data/README.md   # mantém um lembrete na pasta sem versionar os CSVs
+
+# ============================
+# Resultados
+# ============================
+# manter somente o essencial
 results/*.json
 results/*.txt
 results/*.joblib
 results/bootcamp_submission_long.csv
+results/submission.csv           # gerado pelo script (não versionar)
 results/plots/_teste.png
+
+# permitir estes:
 !results/bootcamp_submission.csv
 !results/plots/
+
+# ============================
+# Outros comuns
+# ============================
+.DS_Store
+Thumbs.db
+
