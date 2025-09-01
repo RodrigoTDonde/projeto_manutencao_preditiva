@@ -1,0 +1,16 @@
+* text=auto
+
+# Fonte em LF
+*.py   text eol=lf
+*.md   text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# Scripts Windows em CRLF
+*.ps1  text eol=crlf
+*.bat  text eol=crlf
+
+# Notebooks: não normalizar (evita avisos)
+*.ipynb -text
